@@ -64,7 +64,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 
 
 var jwtSection = builder.Configuration.GetSection("Jwt");
-var jwtKey = jwtSection["Key"] ?? "ReplaceWithVeryLongSecretKey12345";
+var jwtKey = jwtSection["Key"] ?? "hifuvbq8ryq87rtv87340t78qv3487qt3874v8743tc7854t83q787qvt78";
 var key = Encoding.UTF8.GetBytes(jwtKey);
 
 builder.Services.AddAuthentication(options =>
